@@ -12,7 +12,6 @@ end
 
 depends 'python'
 
-recommends 'php'
 recommends 'curl'
 recommends 'nodejs'
 
@@ -21,7 +20,6 @@ recipe 'newrelic::repository', 'Adds the New Relic repository.'
 recipe 'newrelic::server-monitor-agent', 'Installs & configures the New Relic server monitor agent.'
 recipe 'newrelic::java-agent', 'Installs the New Relic Java agent.'
 recipe 'newrelic::nodejs-agent', 'Installs New Relic Node.js agent.'
-recipe 'newrelic::php-agent', 'Installs the New Relic PHP agent.'
 recipe 'newrelic::python-agent', 'Installs the New Relic Python agent.'
 recipe 'newrelic::ruby-agent', 'Installs the New Relic Ruby agent.'
 recipe 'newrelic::meetme-plugin', 'Installs the New Relic MeetMe plugin.'
